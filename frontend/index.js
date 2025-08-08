@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://general-knowledge-quiz-rvb4.onrender.com";
 let currentQuestion = null;
 
 async function fetchData(endpoint) {
