@@ -1,246 +1,195 @@
-[{
-    "question": "What is the capital of Australia?",
-    "answer": "Canberra"
-  },
-  {
-    "question": "What is the chemical symbol for gold?",
-    "answer": "Au"
-  },
-  {
-    "question": "In which year did World War II end?",
-    "answer": "1945"
-  },
-  {
-    "question": "Who wrote 'Romeo and Juliet'?",
-    "answer": "William Shakespeare"
-  },
-  {
-    "question": "What is the value of pi to two decimal places?",
-    "answer": "3.14"
-  },
-  {
-    "question": "What is the largest organ in the human body?",
-    "answer": "Skin"
-  },
-  {
-    "question": "Which planet is known as the Red Planet?",
-    "answer": "Mars"
-  },
-  {
-    "question": "Who painted the Mona Lisa?",
-    "answer": "Leonardo da Vinci"
-  },
-  {
-    "question": "How many players are on a basketball team on the court at one time?",
-    "answer": "5"
-  },
-  {
-    "question": "How many strings does a standard guitar have?",
-    "answer": "6"
-  },
-  {
-    "question": "What is the longest river in the world?",
-    "answer": "The Nile River"
-  },
-  {
-    "question": "What gas makes up approximately 78% of Earth's atmosphere?",
-    "answer": "Nitrogen"
-  },
-  {
-    "question": "Who was the first person to walk on the moon?",
-    "answer": "Neil Armstrong"
-  },
-  {
-    "question": "Which book begins with 'It was the best of times, it was the worst of times'?",
-    "answer": "A Tale of Two Cities"
-  },
-  {
-    "question": "What is 7 squared?",
-    "answer": "49"
-  },
-  {
-    "question": "What type of animal is a Komodo dragon?",
-    "answer": "Lizard"
-  },
-  {
-    "question": "What is the closest star to Earth?",
-    "answer": "The Sun"
-  },
-  {
-    "question": "In which museum would you find the Mona Lisa?",
-    "answer": "The Louvre"
-  },
-  {
-    "question": "In which sport would you perform a slam dunk?",
-    "answer": "Basketball"
-  },
-  {
-    "question": "Which instrument has 88 keys?",
-    "answer": "Piano"
-  },
-  {
-    "question": "What is the smallest country in the world?",
-    "answer": "Vatican City"
-  },
-  {
-    "question": "What is the hardest natural substance on Earth?",
-    "answer": "Diamond"
-  },
-  {
-    "question": "Which ancient wonder of the world was located in Alexandria?",
-    "answer": "The Lighthouse of Alexandria"
-  },
-  {
-    "question": "Who wrote '1984'?",
-    "answer": "George Orwell"
-  },
-  {
-    "question": "What is the next prime number after 7?",
-    "answer": "11"
-  },
-  {
-    "question": "How many chambers does a human heart have?",
-    "answer": "4"
-  },
-  {
-    "question": "How many moons does Earth have?",
-    "answer": "1"
-  },
-  {
-    "question": "Which artist cut off his own ear?",
-    "answer": "Vincent van Gogh"
-  },
-  {
-    "question": "How often are the Summer Olympics held?",
-    "answer": "Every 4 years"
-  },
-  {
-    "question": "What does the musical term 'forte' mean?",
-    "answer": "Loud"
-  },
-  {
-    "question": "Which continent is the Sahara Desert located on?",
-    "answer": "Africa"
-  },
-  {
-    "question": "What is the chemical formula for water?",
-    "answer": "H2O"
-  },
-  {
-    "question": "Who was the first President of the United States?",
-    "answer": "George Washington"
-  },
-  {
-    "question": "Which Shakespeare play features the characters Hamlet and Ophelia?",
-    "answer": "Hamlet"
-  },
-  {
-    "question": "What is 12 multiplied by 12?",
-    "answer": "144"
-  },
-  {
-    "question": "What is the study of birds called?",
-    "answer": "Ornithology"
-  },
-  {
-    "question": "Which planet is closest to the Sun?",
-    "answer": "Mercury"
-  },
-  {
-    "question": "What art movement was Pablo Picasso associated with?",
-    "answer": "Cubism"
-  },
-  {
-    "question": "In tennis, what is a score of zero called?",
-    "answer": "Love"
-  },
-  {
-    "question": "Which composer wrote 'The Four Seasons'?",
-    "answer": "Antonio Vivaldi"
-  },
-  {
-    "question": "What is the tallest mountain in the world?",
-    "answer": "Mount Everest"
-  },
-  {
-    "question": "What is the speed of light in a vacuum?",
-    "answer": "299,792,458 meters per second"
-  },
-  {
-    "question": "In which year did the Berlin Wall fall?",
-    "answer": "1989"
-  },
-  {
-    "question": "Who wrote 'Pride and Prejudice'?",
-    "answer": "Jane Austen"
-  },
-  {
-    "question": "What is the square root of 64?",
-    "answer": "8"
-  },
-  {
-    "question": "What is the powerhouse of the cell?",
-    "answer": "Mitochondria"
-  },
-  {
-    "question": "What galaxy is Earth located in?",
-    "answer": "The Milky Way"
-  },
-  {
-    "question": "Which artist painted 'The Starry Night'?",
-    "answer": "Vincent van Gogh"
-  },
-  {
-    "question": "What is the maximum score possible in ten-pin bowling?",
-    "answer": "300"
-  },
-  {
-    "question": "How many symphonies did Beethoven compose?",
-    "answer": "9"
-  },
-  {
-    "question": "Which ocean is the largest?",
-    "answer": "Pacific Ocean"
-  },
-  {
-    "question": "What is the most abundant gas in the universe?",
-    "answer": "Hydrogen"
-  },
-  {
-    "question": "Which empire was ruled by Julius Caesar?",
-    "answer": "Roman Empire"
-  },
-  {
-    "question": "Who wrote 'To Kill a Mockingbird'?",
-    "answer": "Harper Lee"
-  },
-  {
-    "question": "What is 15% of 200?",
-    "answer": "30"
-  },
-  {
-    "question": "How many bones are in an adult human body?",
-    "answer": "206"
-  },
-  {
-    "question": "What is the largest planet in our solar system?",
-    "answer": "Jupiter"
-  },
-  {
-    "question": "Which period came before the Renaissance?",
-    "answer": "Medieval/Middle Ages"
-  },
-  {
-    "question": "In soccer, how many players are on the field for each team?",
-    "answer": "11"
-  },
-  {
-    "question": "What note is produced when you play all white keys on a piano starting from C?",
-    "answer": "C major scale"
-  },
+[
     {
-        "question": "Which African country has the highest population?",
-        "answer": "Nigeria"
+        "question": "What is the capital of Australia?",
+        "answer": "Canberra"
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "answer": "Au"
+    },
+    {
+        "question": "In which year did World War II end?",
+        "answer": "1945"
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "answer": "William Shakespeare"
+    },
+    {
+        "question": "What is the largest organ in the human body?",
+        "answer": "Skin"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "answer": "Mars"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "answer": "Leonardo da Vinci"
+    },
+    {
+        "question": "How many players are on a basketball team on the court at one time?",
+        "answer": "5"
+    },
+    {
+        "question": "How many strings does a standard guitar have?",
+        "answer": "6"
+    },
+    {
+        "question": "What is the longest river in the world?",
+        "answer": "The Nile River"
+    },
+    {
+        "question": "What gas makes up approximately 78% of Earth's atmosphere?",
+        "answer": "Nitrogen"
+    },
+    {
+        "question": "Who was the first person to walk on the moon?",
+        "answer": "Neil Armstrong"
+    },
+    {
+        "question": "What is 7 squared?",
+        "answer": "49"
+    },
+    {
+        "question": "What type of animal is a Komodo dragon?",
+        "answer": "Lizard"
+    },
+    {
+        "question": "What is the closest star to Earth?",
+        "answer": "The Sun"
+    },
+    {
+        "question": "In which sport would you perform a slam dunk?",
+        "answer": "Basketball"
+    },
+    {
+        "question": "Which instrument has 88 keys?",
+        "answer": "Piano"
+    },
+    {
+        "question": "What is the smallest country in the world?",
+        "answer": "Vatican City"
+    },
+    {
+        "question": "What is the hardest natural substance on Earth?",
+        "answer": "Diamond"
+    },
+    {
+        "question": "Which ancient wonder of the world was located in Alexandria?",
+        "answer": "The Lighthouse of Alexandria"
+    },
+    {
+        "question": "Who wrote '1984'?",
+        "answer": "George Orwell"
+    },
+    {
+        "question": "What is the next prime number after 7?",
+        "answer": "11"
+    },
+    {
+        "question": "How many chambers does a human heart have?",
+        "answer": "4"
+    },
+    {
+        "question": "How many moons does Earth have?",
+        "answer": "1"
+    },
+    {
+        "question": "Which artist cut off his own ear?",
+        "answer": "Vincent van Gogh"
+    },
+    {
+        "question": "How often are the Summer Olympics held?",
+        "answer": "Every 4 years"
+    },
+    {
+        "question": "What does the musical term 'forte' mean?",
+        "answer": "Loud"
+    },
+    {
+        "question": "What is the chemical formula for water?",
+        "answer": "H2O"
+    },
+    {
+        "question": "Who was the first President of the United States?",
+        "answer": "George Washington"
+    },
+    {
+        "question": "What is the study of birds called?",
+        "answer": "Ornithology"
+    },
+    {
+        "question": "Which planet is closest to the Sun?",
+        "answer": "Mercury"
+    },
+    {
+        "question": "What art movement was Pablo Picasso associated with?",
+        "answer": "Cubism"
+    },
+    {
+        "question": "Which composer wrote 'The Four Seasons'?",
+        "answer": "Antonio Vivaldi"
+    },
+    {
+        "question": "What is the tallest mountain in the world?",
+        "answer": "Mount Everest"
+    },
+    {
+        "question": "In which year did the Berlin Wall fall?",
+        "answer": "1989"
+    },
+    {
+        "question": "Who wrote 'Pride and Prejudice'?",
+        "answer": "Jane Austen"
+    },
+    {
+        "question": "What is the square root of 64?",
+        "answer": "8"
+    },
+    {
+        "question": "What is the powerhouse of the cell?",
+        "answer": "Mitochondria"
+    },
+    {
+        "question": "Which artist painted 'The Starry Night'?",
+        "answer": "Vincent van Gogh"
+    },
+    {
+        "question": "What is the maximum score possible in ten-pin bowling?",
+        "answer": "300"
+    },
+    {
+        "question": "Which ocean is the largest?",
+        "answer": "Pacific Ocean"
+    },
+    {
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "answer": "Harper Lee"
+    },
+    {
+        "question": "What is 15% of 200?",
+        "answer": "30"
+    },
+    {
+        "question": "How many bones are in an adult human body?",
+        "answer": "206"
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "answer": "Jupiter"
+    },
+    {
+        "question": "Which period came before the Renaissance?",
+        "answer": "Medieval/Middle Ages"
+    },
+    {
+        "question": "In soccer, how many players are on the field for each team?",
+        "answer": "11"
+    },
+    {
+        "question": "What note is produced when you play all white keys on a piano starting from C?",
+        "answer": "C major scale"
     },
     {
         "question": "What is the capital city of Ghana?",
@@ -253,10 +202,6 @@
     {
         "question": "Which African country is known as the 'Rainbow Nation'?",
         "answer": "South Africa"
-    },
-    {
-        "question": "Which desert covers much of North Africa?",
-        "answer": "Sahara Desert"
     },
     {
         "question": "What is the capital city of Kenya?",
@@ -291,10 +236,6 @@
         "answer": "Portuguese"
     },
     {
-        "question": "Which African country has Dar es Salaam as a major city?",
-        "answer": "Tanzania"
-    },
-    {
         "question": "Which African country is famous for its ancient rock-hewn churches in Lalibela?",
         "answer": "Ethiopia"
     },
@@ -325,10 +266,6 @@
     {
         "question": "Which African country has the unit of currency called the 'shilling'?",
         "answer": "Kenya"
-    },
-    {
-        "question": "In which African country is the city of Casablanca located?",
-        "answer": "Morocco"
     },
     {
         "question": "Which African island nation is known for its biodiversity and lemurs?",
@@ -367,10 +304,6 @@
         "answer": "Ghanaian Cedi"
     },
     {
-        "question": "Which African lake is the deepest?",
-        "answer": "Lake Tanganyika"
-    },
-    {
         "question": "What is the capital of Zimbabwe?",
         "answer": "Harare"
     },
@@ -381,10 +314,6 @@
     {
         "question": "Which African country has the most official languages?",
         "answer": "South Africa"
-    },
-    {
-        "question": "Which African country has its capital at Banjul?",
-        "answer": "The Gambia"
     },
     {
         "question": "What is the primary language spoken in Egypt?",

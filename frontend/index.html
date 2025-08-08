@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Quiz Spinner</title>
+</head>
+<body>
+    <h1>Spin for a Question!</h1>
+    <p>Test your knowledge one spin at a time.</p>
+
+    <button class="spin-button" onclick="spinQuestion()">Spin</button>
+
+    <div id="quiz-container" style="display: none;">
+        <h2>Question</h2>
+        <div id="question-text" class="question"></div>
+        <button class="show-answer" onclick="showAnswer()">Show Answer</button>
+        <div id="answer-text" class="answer" style="display: none;"></div>
+        <button id="next-button" onclick="resetForNewQuestion()">Spin Again</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

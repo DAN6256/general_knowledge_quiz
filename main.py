@@ -1,4 +1,5 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import json
 import os
@@ -6,6 +7,14 @@ import random
 from models import Question
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], 
+    allow_credentials=True,
+    allow_methods=["*"],  
+    allow_headers=["*"],  
+)
 
 DATA_FILE = "data.json"
 
@@ -38,9 +47,7 @@ async def read_questions():
 async def get_random_question():
     questions = await load_json(DATA_FILE)
     if not questions:
-        return Question(**{field: "" for field in Question.__fields__})
-
+        raise HTTPException(status_code=404, detail="No questions available")
+    
     selected = random.choice(questions)
-    questions.remove(selected)
-    save_json(DATA_FILE, questions)
     return selected
