@@ -42,24 +42,36 @@ async def read_questions():
 
 @app.get("/question/random", response_model=Question)
 async def get_random_question():
-    all_questions = await load_json(DATA_FILE)
+    try:
+        all_questions = await load_json(DATA_FILE)
+    except Exception as e:
+        print("❌ Error loading data.json:", str(e))
+        raise HTTPException(status_code=500, detail="Error loading data file")
+
     used_ids = []
 
-    # Load or initialize used questions
-    if os.path.exists(USED_FILE):
-        used_ids = await load_json(USED_FILE)
+    try:
+        if os.path.exists(USED_FILE):
+            used_ids = await load_json(USED_FILE)
+        else:
+            save_json(USED_FILE, [])  # create if missing
+    except Exception as e:
+        print("❌ Error loading used_questions.json:", str(e))
+        raise HTTPException(status_code=500, detail="Error loading used file")
 
     unused_questions = [q for q in all_questions if q['id'] not in used_ids]
 
     if not unused_questions:
-        # Reset used list and start over
-        save_json(USED_FILE, [])
+        used_ids = []
         unused_questions = all_questions
+        save_json(USED_FILE, [])
 
     selected = random.choice(unused_questions)
-
-    # Save selected ID
     used_ids.append(selected['id'])
-    save_json(USED_FILE, used_ids)
+
+    try:
+        save_json(USED_FILE, used_ids)
+    except Exception as e:
+        print("❌ Error saving used file:", str(e))
 
     return Question(**selected)
