@@ -10,11 +10,12 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # wildcard allowed
-    allow_credentials=False,  # must be False if using wildcard origin
+    allow_origins=["https://general-knowledge-quiz-eta.vercel.app"],  # frontend domain
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 
 DATA_FILE = "data.json"
